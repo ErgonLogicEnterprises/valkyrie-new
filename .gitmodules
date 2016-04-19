@@ -34,3 +34,15 @@
 [submodule "docs"]
 	path = docs
 	url = https://github.com/GetValkyrie/valkyrie-docs.git
+[submodule "vagrant/ansible/roles/getvalkyrie.selenium"]
+	path = vagrant/ansible/roles/getvalkyrie.selenium
+	url = git@github.com:ErgonLogicEnterprises/ansible-role-selenium.git
+[submodule "vagrant/ansible/roles/getvalkyrie.drulenium"]
+	path = vagrant/ansible/roles/getvalkyrie.drulenium
+	url = git@github.com:ErgonLogicEnterprises/ansible-role-drulenium.git
+[submodule "vagrant/ansible/roles/getvalkyrie.aegir3drulenium"]
+	path = vagrant/ansible/roles/getvalkyrie.aegir3drulenium
+	url = git@github.com:ErgonLogicEnterprises/ansible-role-aegir3drulenium.git
+[submodule "vagrant/ansible/roles/getvalkyrie.aegir3platforms"]
+	path = vagrant/ansible/roles/getvalkyrie.aegir3platforms
+	url = git@github.com:ErgonLogicEnterprises/ansible-role-aegir3platforms.git
