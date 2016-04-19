@@ -11,3 +11,7 @@
   roles:
     - geerlingguy.mysql
     - getvalkyrie.valkyrie
+    - getvalkyrie.selenium
+    - getvalkyrie.drulenium
+    - getvalkyrie.aegir3druleniumm
+    - getvalkyrie.aegir3platforms
