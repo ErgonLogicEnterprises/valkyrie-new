@@ -46,3 +46,6 @@
 [submodule "vagrant/ansible/roles/getvalkyrie.selenium"]
 	path = vagrant/ansible/roles/getvalkyrie.selenium
 	url = https://github.com/ErgonLogicEnterprises/ansible-role-selenium.git
+[submodule "vagrant/ansible/roles/geerlingguy.java"]
+	path = vagrant/ansible/roles/geerlingguy.java
+	url = https://github.com/geerlingguy/ansible-role-java.git

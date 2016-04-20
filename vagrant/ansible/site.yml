@@ -11,6 +11,7 @@
   roles:
     - geerlingguy.mysql
     - getvalkyrie.valkyrie
+    - geerlingguy.java
     - getvalkyrie.selenium
     - getvalkyrie.drulenium
     - getvalkyrie.aegir3drulenium
