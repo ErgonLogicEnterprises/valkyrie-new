@@ -10,6 +10,7 @@
         uid: "{{ host_uid }}"
   roles:
     - geerlingguy.mysql
+    - getvalkyrie.drush
     - getvalkyrie.valkyrie
     - geerlingguy.java
     - getvalkyrie.selenium
