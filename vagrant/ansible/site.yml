@@ -9,11 +9,11 @@
         name: aegir
         uid: "{{ host_uid }}"
   roles:
-    - geerlingguy.java
-    - getvalkyrie.selenium
     - geerlingguy.mysql
     - getvalkyrie.drush
     - getvalkyrie.valkyrie
+    - geerlingguy.java
+    - getvalkyrie.selenium
     - getvalkyrie.drulenium
     - getvalkyrie.aegir3drulenium
 #    - getvalkyrie.aegir3platforms
