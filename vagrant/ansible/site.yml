@@ -17,3 +17,6 @@
     - getvalkyrie.drulenium
     - getvalkyrie.aegir3drulenium
 #    - getvalkyrie.aegir3platforms
+
+
+# ansible-playbook i inventory site.yml --connection=local --sudo -vvvv

@@ -62,6 +62,10 @@ Vagrant.configure(2) do |config|
     end
 
     v.vm.provision "shell",
+      path: "https://raw.githubusercontent.com/ErgonLogicEnterprises/ansible-bootstrap/master/install-ansible.sh",
+      keep_color: true
+
+    v.vm.provision "shell",
       inline: "PYTHONUNBUFFERED=1 ANSIBLE_FORCE_COLOR=true ansible-playbook /vagrant/.valkyrie/valkyrie/vagrant/ansible/site.yml -i /vagrant/.valkyrie/valkyrie/vagrant/ansible/inventory --connection=local --sudo --extra-vars 'valkyrie_frontend_url=#{config.vm.hostname} host_uid=#{Process.uid}'",
       keep_color: true
 
