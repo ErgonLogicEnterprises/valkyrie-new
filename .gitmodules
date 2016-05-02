@@ -6,7 +6,7 @@
 	url = https://github.com/GetValkyrie/valkyrie-config
 [submodule "vagrant/lib/mount"]
 	path = vagrant/lib/mount
-	url = https://github.com/GetValkyrie/valkyrie-mount
+	url = https://github.com/ErgonLogicEnterprises/valkyrie-mount
 [submodule "vagrant/ansible/roles/getvalkyrie.aegir"]
 	path = vagrant/ansible/roles/getvalkyrie.aegir
 	url = https://github.com/ErgonLogicEnterprises/ansible-role-aegir.git
